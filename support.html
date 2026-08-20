@@ -1,68 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IslamSwipe — Support</title>
+<title>Support — IslamSwipe</title>
+<meta name="description" content="Help and frequently asked questions for IslamSwipe — hands-free dhikr, subscriptions, accounts, content sources and reporting.">
 <style>
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.7; color: #1a1a1a; }
-h1 { font-size: 28px; margin-bottom: 4px; }
-h2 { font-size: 20px; margin-top: 32px; }
-p { margin: 12px 0; }
-.subtitle { color: #666; font-size: 16px; margin-bottom: 32px; }
-.contact-box { background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 24px 0; }
-.faq-q { font-weight: 600; margin-top: 20px; }
-.faq-a { margin-top: 4px; color: #333; }
+:root { --bg:#0a0a0a; --gold:#c4a369; --text:#e8e4dc; --muted:#8a857d; --rule:#252525; --card:#131313; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  max-width: 720px; margin: 0 auto; padding: 48px 24px 72px; line-height: 1.7;
+  color: var(--text); background: var(--bg); }
+h1 { font-size: 32px; margin: 0 0 8px; color: var(--gold); letter-spacing: -0.5px; }
+.updated { color: var(--muted); font-size: 14px; margin: 0 0 40px; }
+h2 { font-size: 21px; margin: 44px 0 16px; color: var(--gold);
+  border-bottom: 1px solid var(--rule); padding-bottom: 8px; }
+h3 { font-size: 17px; margin: 28px 0 6px; color: var(--text); }
+p { margin: 0 0 16px; }
+ul { margin: 0 0 16px; padding-left: 22px; }
+li { margin-bottom: 8px; }
+a { color: var(--gold); }
+a:hover { color: #d9bd88; }
+.contact { background: var(--card); border: 1px solid var(--rule);
+  border-radius: 12px; padding: 22px 24px; margin: 32px 0; }
+.contact h2 { margin-top: 0; border: none; padding: 0; }
+.nav { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--rule);
+  font-size: 15px; }
+.nav a { margin-right: 20px; text-decoration: none; }
+@media (max-width: 480px) {
+  body { padding: 32px 20px 56px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 19px; }
+}
 </style>
 </head>
 <body>
-<h1>Support</h1>
-<p class="subtitle">IslamSwipe — Daily Quran, Hadith and Dhikr</p>
 
-<div class="contact-box">
-<h2 style="margin-top:0;">Contact Us</h2>
-<p>For any questions, issues, or feedback, email us at:</p>
-<p><strong>islamswipeapp@gmail.com</strong></p>
-<p>We aim to respond within 48 hours.</p>
+<h1>IslamSwipe Support</h1>
+<p class="updated">Last updated: August 19, 2026</p>
+
+<div class="contact">
+<h2>Contact us</h2>
+<p>Email <a href="mailto:islamswipeapp@gmail.com">islamswipeapp@gmail.com</a> with any question, bug report or feedback. We aim to reply to support email within 48 hours.</p>
+<p>Reports submitted through the in-app reporting tool are handled separately and are reviewed within 24 hours.</p>
 </div>
 
-<h2>Frequently Asked Questions</h2>
+<h2>Dhikr &amp; counting</h2>
 
-<p class="faq-q">How do I cancel my subscription?</p>
-<p class="faq-a">Open your iPhone Settings, tap your name at the top, then tap Subscriptions. Find IslamSwipe and tap Cancel Subscription. Your premium access continues until the end of the current billing period. IslamSwipe does not process cancellations directly — all subscription management is handled by Apple.</p>
+<h3>How does hands-free dhikr work?</h3>
+<p>Hands-free dhikr plays an audio count (1, 2, 3…) at your chosen pace while you recite the dhikr phrase yourself. You can set the target count and adjust the pace from 0.5 to 5 seconds between counts.</p>
+<p>Counting runs while the app is open and your screen is on — the app holds the screen awake for the duration of a session. If you lock your phone or leave the app, counting pauses and your progress is saved, so you can resume the session where it left off.</p>
+<p>The counting voice is bundled inside the app, so hands-free works with no internet connection at all.</p>
 
-<p class="faq-q">How do I restore my subscription on a new device?</p>
-<p class="faq-a">Open IslamSwipe, go to the Premium screen, and tap "Restore Purchases". Make sure you are signed in with the same Apple ID that made the original purchase.</p>
+<h3>Why does hands-free stop at 100?</h3>
+<p>Every number in a hands-free session is a real recorded clip rather than a synthetic voice, and those recordings run from 1 to 100. Hands-free sessions are therefore capped at 100. Manual counting on the tasbih has no limit — you can set any target you like, because nothing is spoken aloud.</p>
 
-<p class="faq-q">How do I delete my account and all my data?</p>
-<p class="faq-a">Open IslamSwipe, go to Profile, then Account Settings, then Delete Account. This permanently removes all your personal data, profile, activity history, likes, saves, comments, sessions, and preferences from our servers. Local data on your device is also cleared. Important: deleting your account does not cancel your subscription. Cancel your subscription separately through iPhone Settings before deleting your account.</p>
+<h3>How many hands-free sessions do I get?</h3>
+<p>Free members get 5 hands-free sessions per week. Premium members get unlimited sessions.</p>
 
-<p class="faq-q">How do I clear my data as a guest?</p>
-<p class="faq-a">Go to Profile, scroll down, and sign out. This clears all locally stored data including your liked posts, saved posts, dhikr history, and preferences.</p>
+<h3>Can I run more than one dhikr session at a time?</h3>
+<p>Free members can have 2 sessions running at once. Premium members can run unlimited simultaneous sessions.</p>
 
-<p class="faq-q">Can I use the app without creating an account?</p>
-<p class="faq-a">Yes. You can use IslamSwipe as a guest. You can browse all content, do dhikr, track your progress locally, and save favourites. Signing in with Apple lets you sync your data across devices, post comments, and access social features like following other users.</p>
+<h3>What is Sets &amp; Reps?</h3>
+<p>Sets &amp; Reps structures dhikr like a workout — you choose sets, reps and rest intervals, and the app guides you with audio cues and haptics. Reps per set are capped at 100 for the same reason hands-free is. A mini player keeps the session running while you use the rest of the app.</p>
 
-<p class="faq-q">Can I download my data?</p>
-<p class="faq-a">Yes. Go to Profile, then Account Settings, then Download My Data. This exports your data as a JSON file containing your profile information, dhikr history, and usage statistics.</p>
+<h2>Content</h2>
 
-<p class="faq-q">Is the content verified and authentic?</p>
-<p class="faq-a">All Quran verses are sourced from authenticated Quran texts. All hadith are sourced from authenticated collections and graded Sahih (authentic) or Hasan (good) as a minimum standard. Every post includes its source reference (book name and hadith number). Scholarly wisdom is attributed to its speaker with the classical source cited. If you spot an error, please email us immediately at islamswipeapp@gmail.com.</p>
+<h3>Where does your content come from?</h3>
+<p>All content is drawn from authenticated Islamic references. Every hadith in the app carries its grading on the card — Sahih (authentic), Hasan (good) or Da'if (weak) — so you can judge each narration for yourself rather than taking its presence in the app as a claim of authenticity. Where a narration is weak, it is labelled Da'if openly rather than being presented as stronger than it is.</p>
+<p>Quran recitation audio is provided via Quran.com.</p>
 
-<p class="faq-q">How does hands-free dhikr work?</p>
-<p class="faq-a">Hands-free dhikr plays an audio count (1, 2, 3...) at your chosen pace while you recite the dhikr phrase yourself. You can set the target count, adjust the pace from 0.5 to 5 seconds between counts, and use it with your phone locked. Free users get 5 sessions per week. Premium users get unlimited sessions.</p>
+<h3>I think something is inaccurate. How do I report it?</h3>
+<p>Email <a href="mailto:islamswipeapp@gmail.com">islamswipeapp@gmail.com</a> with the content in question. Corrections to sourcing or grading are taken seriously and we would rather hear about them.</p>
 
-<p class="faq-q">The app is not working properly. What should I do?</p>
-<p class="faq-a">Try closing and reopening the app. Make sure you have the latest version from the App Store. Check your internet connection — the app needs internet for syncing data, loading content, and playing Quran audio. If the issue persists, email us at islamswipeapp@gmail.com with a description of the problem, your device model, and iOS version.</p>
+<h2>Community &amp; safety</h2>
 
-<p class="faq-q">How do I report inappropriate content or a user?</p>
-<p class="faq-a">On any card in the feed, tap the three-dots menu and select "Report". You can choose a reason for the report. You can also block users from the same menu, which hides their content from your feed. You can manage blocked users from Account Settings. Reports are reviewed and actioned promptly.</p>
+<h3>How do I report a post, comment or user?</h3>
+<p>Use the report option available on posts, comments and profiles. Reports are reviewed within 24 hours and appropriate action is taken, which may include content removal or account suspension.</p>
 
-<p class="faq-q">Why am I not receiving notifications?</p>
-<p class="faq-a">Make sure notifications are enabled for IslamSwipe in your iPhone Settings, then Notifications, then IslamSwipe. Inside the app, check your notification preferences in Profile, then Notification Settings. If notifications are enabled but not arriving, try closing and reopening the app to reschedule them.</p>
+<h3>How do I block or mute someone?</h3>
+<p>You can block or mute any account at any time from their profile. Blocked and muted users' content is hidden from you immediately.</p>
 
-<p class="faq-q">How do I change my profile information?</p>
-<p class="faq-a">Go to Profile and tap on your name or the edit button. You can update your display name, username, bio, and profile picture (premium feature). Changes are synced across devices if you are signed in with Apple.</p>
+<h2>Account</h2>
+
+<h3>Do I need an account?</h3>
+<p>No. You can browse as a guest with no account. Signing in with Apple keeps your dhikr history, goals, saved and liked content and Quran progress on your account, so they follow you to a new device.</p>
+
+<h3>How do I download my data?</h3>
+<p>Open Account Settings and choose "Download My Data". You will get a JSON file containing your profile, activity history, preferences, saved and liked content, and your uploads if you are a creator.</p>
+
+<h3>How do I delete my account?</h3>
+<p>Open your Profile and choose Delete Account. This permanently removes your account and associated data. Deleting your account does not cancel your subscription — cancel that separately in iPhone Settings first.</p>
+
+<h2>Subscriptions</h2>
+
+<h3>What does Premium include?</h3>
+<ul>
+<li><strong>Advanced Analytics</strong> — detailed session insights and the full-year dhikr heatmap</li>
+<li><strong>Quran Surah Map</strong> — see all 114 surahs light up as you read</li>
+<li><strong>Exclusive Collections</strong> — all premium curated series</li>
+<li><strong>Custom Routines</strong> — unlimited dhikr sessions running at once, with custom targets</li>
+<li><strong>Hands-Free Mode</strong> — unlimited hands-free sessions (free accounts get 5 per week)</li>
+</ul>
+<p>Premium is a monthly or yearly auto-renewable subscription. Local prices are set by Apple per storefront.</p>
+
+<h3>What do I get for free?</h3>
+<p>The full feed, search, hashtags, saved and liked, the tasbih counter with preset and custom phrases, dhikr goals, the Quran reader with recitation, streaks, recent heatmap history, and all community features.</p>
+
+<h3>How do I cancel?</h3>
+<p>Subscriptions are managed by Apple, not by us — we cannot cancel one on your behalf. On your device open Settings, tap your name, then Subscriptions, and select IslamSwipe. Cancel at least 24 hours before the end of the current period to avoid renewal.</p>
+
+<h3>I paid but Premium isn't showing.</h3>
+<p>Use Restore Purchases on the Premium screen, and make sure you are signed in with the same Apple ID used for the purchase. If it still doesn't appear, email us.</p>
+
+<h3>Why am I not receiving notifications?</h3>
+<p>Check notifications are enabled for IslamSwipe in iPhone Settings → Notifications → IslamSwipe. Inside the app, check Profile → Notification Settings. If they are enabled but not arriving, close and reopen the app to reschedule them.</p>
+
+<div class="nav">
+<a href="/">Home</a>
+<a href="/privacy.html">Privacy Policy</a>
+<a href="/terms.html">Terms of Service</a>
+</div>
 
 </body>
 </html>
