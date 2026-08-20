@@ -1,121 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IslamSwipe — Privacy Policy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — IslamSwipe</title>
+<meta name="description" content="How IslamSwipe collects, uses, stores and shares your information.">
 <style>
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.7; color: #1a1a1a; }
-h1 { font-size: 28px; margin-bottom: 4px; }
-h2 { font-size: 20px; margin-top: 32px; }
-h3 { font-size: 16px; margin-top: 20px; }
-p { margin: 12px 0; }
-.date { color: #666; font-size: 14px; margin-bottom: 32px; }
-.contact { background: #f5f5f5; padding: 16px; border-radius: 8px; margin-top: 24px; }
+  :root {
+    --bg: #0a0a0a;
+    --panel: #111116;
+    --text: #e8e4dc;
+    --muted: #9a958c;
+    --gold: #c4a369;
+    --rule: #26262c;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 24px; margin-bottom: 8px; }
+  .eyebrow {
+    color: var(--gold);
+    font-size: 13px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 12px; font-weight: 700; }
+  .updated { color: var(--muted); font-size: 15px; margin: 0; }
+  h2 {
+    font-size: 20px;
+    margin: 40px 0 12px;
+    font-weight: 650;
+    color: var(--gold);
+    scroll-margin-top: 20px;
+  }
+  h3 { font-size: 17px; margin: 26px 0 8px; font-weight: 650; }
+  p { margin: 0 0 16px; }
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 10px; }
+  a { color: var(--gold); }
+  a:hover { color: #d9bd88; }
+  strong { font-weight: 650; }
+  .intro { color: var(--text); }
+  nav.back { margin-bottom: 28px; font-size: 15px; }
+  nav.back a { text-decoration: none; }
+  nav.back a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 15px;
+  }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    .wrap { padding: 28px 18px 60px; }
+    h1 { font-size: 27px; }
+    h2 { font-size: 19px; }
+  }
 </style>
 </head>
 <body>
-<h1>Privacy Policy</h1>
-<p class="date">Last updated: April 2026</p>
+<div class="wrap">
 
-<p>IslamSwipe ("we", "our", "us", "the app") is committed to protecting your privacy. This policy explains what data we collect, how we use it, how we store it, and your rights under applicable data protection laws including the UK General Data Protection Regulation (UK GDPR).</p>
+<nav class="back"><a href="index.html">&larr; IslamSwipe</a></nav>
 
-<h2>1. Data We Collect</h2>
+<header>
+  <p class="eyebrow">IslamSwipe</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last Updated: August 19, 2026</p>
+</header>
 
-<h3>1.1 Account Data (Sign In With Apple users)</h3>
-<p>If you choose to sign in with Apple, we may receive and store the following, depending on what you authorise Apple to share: your email address (which may be a private relay address), your full name (given name and family name), a unique Apple User ID, and a system-generated user ID (UUID). You may also choose to set a display name, username, bio, and profile image. Profile images require photo library access, which you can grant or deny.</p>
+<h2>Introduction</h2>
+<p class="intro">IslamSwipe ("we", "our", or "the App") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and share your information when you use our mobile application.</p>
 
-<h3>1.2 Account Data (Guest users)</h3>
-<p>If you use the app as a guest, we create an anonymous session through Supabase anonymous authentication. No personal identifying information (name, email, or Apple ID) is collected. A system-generated anonymous user ID is created for the session.</p>
+<h2>1. Information We Collect</h2>
+
+<h3>1.1 Account Data (Apple Sign In)</h3>
+<p>When you sign in with Apple, we receive your Apple user ID and, optionally, your name and email address if you choose to share them. We also store your display name, username, bio, and profile photo that you voluntarily provide.</p>
+
+<h3>1.2 Account Data (Guest)</h3>
+<p>Guest users do not provide any personal information. A local anonymous session is created on your device. Guest data (preferences, dhikr sessions, goals) is stored locally and is not transmitted to our servers unless you later create an account.</p>
 
 <h3>1.3 Usage Data</h3>
-<p>To provide the IslamSwipe experience, we store the following data linked to your account: dhikr session history (count, target, date, duration, and phrase used), dhikr streak data and daily activity for the heatmap, Quran reading progress (verses marked as read and surahs visited), liked and saved posts, comments you post on content, reports you submit on content or users, goals you create (type, target, and progress), feed filter and category preferences, notification preferences and schedule settings, your follower and following relationships, your blocked users list, onboarding completion status, and your profile privacy setting (public or private).</p>
+<p>We collect data about your activity within the App, including likes, saves, dhikr session counts, Quran reading progress, goals, follower/following relationships, and content preferences. This data is used to personalise your experience.</p>
 
 <h3>1.4 Subscription Data</h3>
-<p>If you purchase IslamSwipe Premium, payment is processed entirely by Apple through the App Store. We never collect, store, or have access to your payment details, credit card number, or billing address. We receive your subscription status and expiration date from RevenueCat (our subscription management provider) to determine whether to unlock premium features. This data is linked to your anonymous RevenueCat app user ID, not your personal identity.</p>
+<p>Subscription status is managed by Apple and RevenueCat. We do not store your payment information — all transactions are processed by Apple's App Store. We receive only your subscription status (active, expired, or trial) and the anonymous RevenueCat app user ID.</p>
 
-<h3>1.5 Referral Codes</h3>
-<p>During the premium upgrade process, you may optionally enter a referral code. If provided, this code is stored in your user profile and used to track which creator referred you. Referral codes are used for internal analytics only and do not affect your subscription price or features.</p>
+<h3>1.5 Device Tokens</h3>
+<p>We collect anonymous device tokens for push notification delivery via Apple Push Notification Service. These tokens are used solely to send you reminders and motivational notifications. We do not collect device model, OS version, or IP address for tracking purposes.</p>
 
-<h3>1.6 Device Tokens</h3>
-<p>If you enable push notifications, we store your anonymous device token provided by Apple Push Notification service (APNs) to deliver notifications to your device. This token cannot be used to identify you personally. If you delete your account, your device token is removed from our servers.</p>
+<h3>1.6 Creator Content</h3>
+<p>If you are an approved creator, we collect and store video files, thumbnails, captions, hashtags, and category tags that you upload. Creator metadata such as creator bio, content style, and tier level is also stored.</p>
 
-<h3>1.7 Creator Content</h3>
-<p>If you are an approved creator in our invite-only creator programme, we store the content you upload including video files, thumbnail images, captions, categories, and tags. Media files are stored in Supabase Storage. Your display name is shown alongside your posts as the creator attribution. Your creator tier, style tag, and bio (set by IslamSwipe) are displayed in the Discover Creators section to help users find content that matches their preferences. Submitted posts may be reviewed by IslamSwipe before being made visible to your followers. Creators can delete their own posts at any time.</p>
+<h3>1.7 Comments and Social Interactions</h3>
+<p>Comments you post on content, reports you submit, and users you block are stored to enable social features and content moderation. Follower/following relationships are stored to deliver personalised feeds.</p>
 
-<h3>1.8 Comments and Social Interactions</h3>
-<p>Comments you post on content, reports you submit about content or users, and users you block are stored to support the app's social and moderation features. When you follow a creator, their posts appear in your Following feed. Creators can see their total follower count but cannot see the identities of individual followers.</p>
+<h3>1.8 Data Export</h3>
+<p>You can export a copy of your personal data at any time using the "Download My Data" option in Account Settings. The export is a JSON file containing your profile information (including subscription status, but never payment details), your activity history (dhikr sessions, goals, Quran reading progress, comments you have posted, reports you have submitted, accounts you follow and who follows you, and accounts you have blocked or muted), your preferences (content filters, struggles, custom dhikrs, your comment discussion preference, and notification settings), your uploaded posts if you are a creator, and your saved and liked content.</p>
 
-<h3>1.9 Widget and App Extension Data</h3>
-<p>IslamSwipe includes home screen widgets (Daily Verse, Dhikr Streak, Daily Summary). Data shared between the main app and widgets — including dhikr stats, verse of the day, and streak data — is stored locally on your device via App Groups. This data does not leave your device and is not transmitted to any server.</p>
-
-<h3>1.10 Data Export</h3>
-<p>You can export your personal data at any time using the "Download My Data" feature in Account Settings. This generates a JSON file containing your user ID, display name, email, username, bio, membership date, dhikr session count, and total lifetime dhikr count.</p>
-
-<h2>2. Data We Do NOT Collect</h2>
-
-<p>We do not collect your precise or approximate location. We do not access your device camera or microphone — video uploads are selected from your photo library only. We do not access your contacts, calendar, health data, or biometric data. We do not use any advertising frameworks, tracking SDKs, or analytics platforms. We do not collect your Identifier for Advertisers (IDFA). We do not display advertisements of any kind. We do not sell, rent, share, or trade your data with any third party for advertising, marketing, or any other commercial purpose.</p>
+<h2>2. Data We Do Not Collect</h2>
+<p>IslamSwipe does not collect:</p>
+<ul>
+  <li>Location data or GPS coordinates</li>
+  <li>Contacts or address book information</li>
+  <li>Camera or microphone data — the App does not access your camera or microphone</li>
+  <li>Health or fitness data</li>
+  <li>Biometric data (Face ID, Touch ID, fingerprints)</li>
+  <li>Browsing history or data from other apps</li>
+  <li>Advertising identifiers (IDFA)</li>
+  <li>Any data from third-party analytics or tracking SDKs</li>
+</ul>
+<p>We do not use any advertising SDKs, analytics trackers, or sell your data to third parties.</p>
 
 <h2>3. Third-Party Services</h2>
-
-<p>IslamSwipe uses the following third-party services to operate:</p>
-
-<p><strong>Supabase</strong> — our backend database, authentication, and storage provider. Stores your account data, profile information, all app usage data, and creator-uploaded media files. Supabase's privacy policy is available at supabase.com/privacy.</p>
-
-<p><strong>RevenueCat</strong> — our subscription management provider. Receives your anonymous app user ID and Apple subscription transaction data to verify your premium subscription status. RevenueCat does not receive your name or email. Their privacy policy is available at revenuecat.com/privacy.</p>
-
-<p><strong>Apple Sign In</strong> — authentication is handled by Apple. Apple provides your name and email to us only if you explicitly authorise it. Apple's privacy policy is available at apple.com/privacy.</p>
-
-<p><strong>Apple Push Notification service (APNs)</strong> — delivers push notifications to your device using your anonymous device token. Managed by Apple under their privacy policy.</p>
-
-<p><strong>Quran.com API (verses.quran.com)</strong> — the app streams Quran audio recitations from this third-party service. When you play Quran audio, a connection is made to their servers to retrieve the audio file. No personal data is sent to Quran.com. Their privacy policy is available at quran.com/privacy.</p>
-
-<p>We do not use Firebase, Google Analytics, Amplitude, Mixpanel, Sentry, PostHog, Facebook SDK, or any other analytics, crash reporting, or tracking service.</p>
+<ul>
+  <li><strong>Apple Sign In:</strong> Authentication is handled by Apple. We receive only the data you authorise Apple to share. See Apple's privacy policy at <a href="https://www.apple.com/privacy">apple.com/privacy</a>.</li>
+  <li><strong>RevenueCat:</strong> Manages subscription status. RevenueCat receives an anonymous app user ID and subscription transaction data from Apple. See RevenueCat's privacy policy at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</li>
+  <li><strong>Supabase:</strong> Provides our backend database, authentication, and file storage services (including creator video uploads). Data is hosted on AWS infrastructure. See Supabase's privacy policy at <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</li>
+  <li><strong>Cloudflare Workers:</strong> Hosts our secure server endpoints, which verify subscription status and process account deletion requests. Data passes through Cloudflare's network but is not stored there. See Cloudflare's privacy policy at <a href="https://www.cloudflare.com/privacypolicy">cloudflare.com/privacypolicy</a>.</li>
+  <li><strong>Apple Push Notification Service:</strong> Delivers push notifications to your device using an anonymous device token.</li>
+  <li><strong>Quran.com API:</strong> We stream Quran audio recitations from verses.quran.com. When you play Quran audio, your device connects directly to their servers. See Quran.com's privacy policy at <a href="https://quran.com/privacy">quran.com/privacy</a>.</li>
+</ul>
 
 <h2>4. How We Use Your Data</h2>
-
-<p>We use your data solely to provide, maintain, and improve the IslamSwipe app. Specifically, we use your data to: authenticate your identity and maintain your session, save and sync your dhikr progress, Quran reading history, likes, saves, and comments across devices, display your personal stats, streak, heatmap, and Quran Journey in your profile, personalise your content feed based on your filter preferences and selected struggles, manage your premium subscription status, deliver push notifications you have opted into, enable social features (following, commenting, blocking, reporting), display your profile to other users if you have set it to public, track referral codes for internal analytics, moderate creator-submitted content, and share data locally with home screen widgets.</p>
+<ul>
+  <li><strong>App Functionality:</strong> To provide and personalise the IslamSwipe experience, including your feed, dhikr tracking, Quran progress, and saved content.</li>
+  <li><strong>Notifications:</strong> To send you reminders and motivational notifications based on your activity and preferences. You can disable these at any time in Settings.</li>
+  <li><strong>Subscriptions:</strong> To verify your premium subscription status and unlock premium features.</li>
+  <li><strong>Social Features:</strong> To enable followers, following, creator discovery, and profile visibility. When you follow a creator, their posts appear in your Following feed.</li>
+  <li><strong>Creator Program:</strong> To enable approved creators to upload, manage, and distribute Islamic content to their followers.</li>
+  <li><strong>Content Moderation:</strong> To review creator-submitted content for quality and adherence to Islamic content standards before it is made visible to followers.</li>
+  <li><strong>Improvements:</strong> To understand general usage patterns and improve the App. We do not use personal data for advertising.</li>
+</ul>
 
 <h2>5. Content Moderation</h2>
+<p>IslamSwipe operates a content moderation system for creator-submitted content. New creators' posts are placed in a review queue and must be manually approved before becoming visible to followers. Once a creator demonstrates consistent quality, they may be granted auto-publish privileges at our discretion.</p>
+<p>We reserve the right to review, reject, remove, or restrict any content at any time without prior notice. Users can report content or other users that violate our standards using the in-app reporting feature. Reports are reviewed within 24 hours and appropriate action is taken, which may include content removal or account suspension.</p>
 
-<p>Creator-submitted posts may be reviewed before being made visible. Posts that violate our content guidelines (including inaccurate Islamic content, hate speech, or inappropriate material) will be rejected or removed. Reported content is reviewed and actioned as appropriate. We reserve the right to remove any user-generated content at our sole discretion.</p>
-
-<h2>6. Legal Basis for Processing (UK GDPR)</h2>
-
-<p>We process your data on the following legal bases: contract performance (to provide the app service you signed up for), legitimate interest (to improve the app, moderate content, and deliver relevant content), and consent (for push notifications and optional profile information, which you can withdraw at any time).</p>
+<h2>6. Legal Basis (UK GDPR)</h2>
+<p>We process your personal data under the following legal bases as defined by the UK General Data Protection Regulation (UK GDPR):</p>
+<ul>
+  <li><strong>Contract:</strong> Processing necessary to provide you with the App's services, including account management, content delivery, and subscription management.</li>
+  <li><strong>Legitimate Interests:</strong> Processing necessary for our legitimate interests, including improving the App, ensuring security, and preventing abuse, where these interests are not overridden by your rights.</li>
+  <li><strong>Consent:</strong> Processing based on your explicit consent, such as sending push notifications and optional data sharing during Apple Sign In. You may withdraw consent at any time.</li>
+  <li><strong>Legal Obligation:</strong> Processing necessary to comply with legal obligations, such as responding to lawful requests from authorities.</li>
+</ul>
 
 <h2>7. Data Retention</h2>
-
-<p>Your data is retained for as long as your account is active. If you delete your account (Profile then Account Settings then Delete Account), all your personal data, profile information, activity history, likes, saves, comments, uploaded content, follower relationships, sessions, goals, preferences, and device tokens are permanently removed from our servers within 30 days. Local data on your device is also cleared immediately upon account deletion.</p>
-
-<p>Guest user data is stored locally on your device and in an anonymous Supabase session. Signing out as a guest clears all local data and ends the anonymous session.</p>
+<p>We retain your account data for as long as your account is active. If you delete your account, all associated data is permanently removed from our servers, including:</p>
+<ul>
+  <li>Profile information (name, username, bio, photo)</li>
+  <li>Activity history (likes, saves, sessions, progress)</li>
+  <li>Uploaded content (videos, thumbnails, captions)</li>
+  <li>Comments and reports</li>
+  <li>Follower and following relationships</li>
+  <li>Preferences and settings</li>
+</ul>
+<p>Local data on your device (preferences, cached content) can be cleared manually from the Profile tab or by uninstalling the App.</p>
 
 <h2>8. Your Rights</h2>
-
-<p>Under UK GDPR and applicable data protection laws, you have the right to: access your personal data (available via Profile then Account Settings then Download My Data, which exports your data as a JSON file), request correction of inaccurate data by contacting us, request deletion of all your data (available in-app or by contacting us), restrict or object to processing of your data, withdraw consent for push notifications at any time through your device settings, and lodge a complaint with the Information Commissioner's Office (ICO) at ico.org.uk if you believe your rights have been violated.</p>
+<p>Under applicable data protection laws, you have the following rights:</p>
+<ul>
+  <li><strong>Access:</strong> You can view your data in the Profile tab at any time.</li>
+  <li><strong>Export:</strong> You can download a copy of your data using the "Download My Data" option in Account Settings.</li>
+  <li><strong>Rectification:</strong> You can update your profile information at any time through the App.</li>
+  <li><strong>Deletion:</strong> You can delete your account and all associated data from Account Settings. Guest users can clear all local data from the Profile tab.</li>
+  <li><strong>Restriction:</strong> You can request restriction of processing by contacting us.</li>
+  <li><strong>Objection:</strong> You can object to processing based on legitimate interests by contacting us.</li>
+  <li><strong>Portability:</strong> You can export your data in a machine-readable JSON format.</li>
+  <li><strong>Notifications:</strong> You can disable all notifications from the Notifications settings within the App or from iOS Settings.</li>
+  <li><strong>Content Removal:</strong> Creators can delete their own uploaded posts at any time from the My Posts section.</li>
+</ul>
+<p>To exercise any of these rights, contact us at <a href="mailto:islamswipeapp@gmail.com">islamswipeapp@gmail.com</a>.</p>
 
 <h2>9. Children's Privacy</h2>
-
-<p>IslamSwipe is rated 4+ and contains educational Islamic content suitable for all ages. We do not knowingly collect personal data from children under 13. Account creation via Apple Sign In requires an Apple ID, which has its own age requirements. If we become aware that we have collected data from a child under 13 without parental consent, we will delete it promptly.</p>
+<p>IslamSwipe is intended for users aged 13 and over, in line with our Terms of Service. We do not knowingly collect personal information from children under 13. The App's content is educational and religious in nature, and users under 18 should use the App with parental guidance. If you believe a child under 13 has provided personal information, please contact us so we can remove it.</p>
 
 <h2>10. Data Security</h2>
-
-<p>We use industry-standard security measures to protect your data, including encrypted connections (HTTPS/TLS) for all data in transit, Row Level Security (RLS) on our Supabase database to ensure users can only access their own data, secure authentication through Apple Sign In with JWT tokens, and encrypted storage for sensitive credentials. However, no method of electronic transmission or storage is 100% secure, and we cannot guarantee absolute security.</p>
+<p>Your data is stored securely using Supabase (hosted on AWS infrastructure) with encryption in transit (TLS) and at rest. Local data such as preferences, dhikr sessions, and goals are stored on your device using standard iOS storage mechanisms. We implement industry-standard security measures to protect your information, including secure API communication, row-level security policies, and access controls.</p>
 
 <h2>11. International Data Transfers</h2>
-
-<p>Your data may be processed on servers located outside the United Kingdom. Supabase and RevenueCat operate servers in various locations. Where data is transferred outside the UK, appropriate safeguards are in place in accordance with UK GDPR requirements.</p>
+<p>Your data may be processed and stored on servers located outside your country of residence, including in the United States (via AWS infrastructure used by Supabase) and other jurisdictions where our service providers operate. Requests to our server endpoints are routed through Cloudflare's global edge network and may be processed at a location outside your country of residence; as stated in Section 3, your data is not stored there. Where data is transferred outside the UK or EEA, we ensure appropriate safeguards are in place, including standard contractual clauses and adequacy decisions, to protect your personal data in accordance with applicable data protection laws.</p>
 
 <h2>12. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the App or by updating the "Last Updated" date above. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
 
-<p>We may update this privacy policy from time to time. Any changes will be reflected by the "Last updated" date at the top of this page. We encourage you to review this policy periodically. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
-
-<div class="contact">
 <h2>13. Contact Us</h2>
-<p>If you have any questions about this privacy policy, your data, or wish to exercise your rights, contact us at:</p>
-<p><strong>Email:</strong> islamswipeapp@gmail.com</p>
-<p><strong>Website:</strong> islamswipe.com</p>
-</div>
+<p>If you have questions about this Privacy Policy or your data, contact us at:</p>
+<p><a href="mailto:islamswipeapp@gmail.com">islamswipeapp@gmail.com</a></p>
 
+<footer>
+  <p>IslamSwipe &middot; <a href="terms.html">Terms of Service</a> &middot; <a href="support.html">Support</a></p>
+</footer>
+
+</div>
 </body>
 </html>
